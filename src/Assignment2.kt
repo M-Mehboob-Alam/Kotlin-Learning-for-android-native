@@ -8,4 +8,14 @@ fun  main(){
     }else{
         println("$x is greater then $y")
     }
+
+//    Assignment Question 2
+//    A student must pass both math and science to get a certificate. Given math = true and science = false, check eligibility.
+        val math = true
+        val science = false
+        if(math && science){
+            println(" Congrats, your are passed and you can get certificate")
+        }else{
+            println("Sorry, you are failed and can't get a certificate")
+        }
 }
