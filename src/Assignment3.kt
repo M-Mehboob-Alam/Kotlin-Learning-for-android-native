@@ -4,7 +4,9 @@ fun  main(){
     val age = readln().toIntOrNull()
     println("Please Enter your ticket no")
     val userTicket = readln().toIntOrNull()
-
+   if (age == null){
+       println("age is not in valid farmat");
+   }
     if (age !=null && userTicket != null){
         if (age >= 18 ){
             if (userTicket == 123456){
